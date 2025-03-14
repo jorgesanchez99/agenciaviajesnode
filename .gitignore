@@ -1,0 +1,9 @@
+node_modules
+Materiales
+__MACOSX
+.DS_Store
+.vscode
+.idea
+*.log
+.env
+postgres

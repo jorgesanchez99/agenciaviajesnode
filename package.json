@@ -1,0 +1,25 @@
+{
+  "name": "agencia_viajaes_nodejs_intro",
+  "version": "1.0.0",
+  "description": "Proyecto introduccion a node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Jorge Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.13.0",
+    "pg": "^8.14.0",
+    "pg-hstore": "^2.3.4",
+    "pug": "^3.0.3",
+    "sequelize": "^6.37.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block slider
+    .slider
+        h1 Rio de Janeiro
+        em aventura
+
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col.md-6
+                p.text-justify Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum auctor neque, quis cursus ipsum porttitor in. Morbi scelerisque aliquet lacus non aliquam. Maecenas auctor enim non dolor placerat, nec varius arcu sollicitudin. Etiam ultricies quis ex quis fringilla. Donec venenatis diam mauris, id venenatis purus fermentum sed. 
+                p.text-justify Praesent scelerisque et diam volutpat ultricies. Maecenas semper, sem sed vulputate condimentum, ipsum nisi venenatis magna, ut cursus diam sapien id magna. Aliquam erat volutpat. Aenean blandit ex non felis suscipit mattis. Duis sit amet enim nisi.
+            .col.md-6
+                img.img-fluid(src="/img/inicio_nosotros.jpg", alt="Imagen Nosotros")
+        include ./layout/bloque_viajes
+        
+    .descuento
+        .container
+            .row 
+                .col-md-6 
+                    .contenido
+                        h1 Descuento del 20%
+                        p.titulo Viaja a Rio de Janeiro
+                        p.fecha 20 de Marzo del 2025 - 30 de Marzo del 2025
+                        p.precio $1,500 USD
+        
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales
